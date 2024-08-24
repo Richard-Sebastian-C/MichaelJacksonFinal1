@@ -1,0 +1,57 @@
+/*--------basic tags--------*/
+h1{
+    font-size: 50px ;
+    text-align: center;
+    
+}
+hr{
+    height: 10px;
+    background-color:rgb(47, 44, 254);
+}
+/*---------specfic tags------*/
+.youtube{
+    background-image: url("youtubebackground.jpg"); 
+    background-size: fill;
+    background-position: center;
+    padding: 100px;
+    color: rgb(255, 255, 255);
+}
+.Michael{
+    background-image: url("Background.jpg"); 
+    background-size: fill;
+    background-position: center;
+    padding: 100px;
+    color: rgb(255, 255, 255);
+}
+.encyclopedia{
+    background-image: url("enclopediabackground.jpg"); 
+    background-size: fill;
+    background-position: center;
+    padding: 100px;
+    color: rgb(25, 33, 255);
+}
+
+/*----------NAVIGATION BARS---------*/
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+  
+.topnav a {
+    float: left;
+    color: #2f2cfe;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+.topnav a:hover {
+    background-color: #4ce62a;
+    color: black;
+}
+  
+.topnav a.active {
+    background-color: #06d5ff;
+    color: black;
+}
